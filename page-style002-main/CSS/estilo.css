@@ -1,0 +1,114 @@
+/*representa a margem padrão do body, define a fontye padrão e a cor de fundo*/
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ccc;
+}
+
+/*estiliza a seção hero, que geralmente é a primeira seção da página*/
+.hero{
+  background-image: url(../img/bg-3.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position:  right center;
+  padding-top: 1px;
+}
+
+/*estiliza o conteúdodentro da seção hero*/
+.hero-content {
+  margin: 100px;
+  width: 80%;
+  text-align: center;
+  color: white;
+}
+
+/*estilizao título dentro do conteúdo da seção hero*/
+.hero-content h1 {
+  font-size: 56px;
+  text-shadow: 2px 2px 2px black;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/*estiliza o paragrfo dentro do conteúdo da seção hero*/
+.hero-content p {
+  background-color: rgba(0,0,0, .7);]
+  font-size: 18px;
+  display: inline-block;
+  padding: 16px;
+  border-bottom: 2px solid;
+}
+
+/*estiliza a lista não ordenada (ul) dentro da navegação (nav) na seção hero*/
+.hero nav ul{
+  margin: 20px 80px 0 0;
+  text-align: right;
+}
+
+/*estiliza os itens da lista (li) dentro da navegação (nav) na seção hero*/
+.hero nav li{
+  display: inline-block;
+  list-style-type: none;
+  border: 1px soid white;
+  margin-left: 16px;
+}
+
+/* estiliza os links (a) dentro dos itens da lista na navegação (nav) na seção hero*/
+.hero nav a {
+  background-color: rgba(0, 0,0, .3);
+  padding: 16px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+/*estiliza o estado hover (quando o cursor está sobre o link) dos links de navegação*/
+.hero nav:hover {
+  background-color: rgba(0,0,0, .5);
+}
+
+
+/*estiliza a tag <main>, que geralmente contém o conteúdo principal da página*/
+main {
+  width: 90%;
+  margin: auto;
+  max-width: 860px;
+}
+
+/*estiliza os elementos <article>, que representam seções independentes do conteúdo*/
+article {
+  background-color: white;
+  padding: 16px;
+  margin-bottom: 32px;
+  margin-top: 32 px;
+}
+
+/*estiliza os títulos (h2) dentro dos artigos*/
+article h2 {
+  border-bottom: 2px;
+  background-color: #eee;
+  padding 10px;
+  margin-top: 0;
+}
+
+/*estiliza elementos com a classe .btn, geralmente usados para botões*/
+.btn {
+  background-color: #cdc7c3;
+  display: block;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-left: auto;
+  width: fit-content;
+}
+
+.rodape {
+  color: white;
+  background-color: #6b6c68;
+  text-align: center;
+  padding: 30px;
+  text-shadow: 2px 2px 2px black;
+  letter-spacing: 2px;
+}
